@@ -1,0 +1,39 @@
+app_id / client_key / clinet_id                     = 7368653044747075601
+auth_code / code                                    = c4114c8633461f5a664091e27ed8dca2f826cbc5
+secret / client_secret                              = 1d71aaad557d3c130e38241941246b6da1e54837
+TikTok account holder redirect URL / redirect_uri   = https://diotmedia.framer.website/ttkinfo
+access_token (14/05/24)                             = 250398bba11e2624bd102f38e2f414c856491a06
+TTCM account ID                                     = 7369006817231454224
+
+https://
+diotmedia.framer.website/
+?auth_code=9d9e91e732b41639bfe2b949b286ccc789451499
+&code=9d9e91e732b41639bfe2b949b286ccc789451499
+&state=your_custom_params
+
+https://
+www.tiktok.com/v2/auth/authorize
+client_key=7368653044747075601
+scope=
+    user.info.basic
+    user.info.username
+    user.info.stats
+    user.account.type
+    user.insights
+    video.list
+    video.insights
+    comment.list
+    comment.list.manage
+    video.publish
+
+response_type=code
+
+redirect_uri                                        = https://diotmedia.framer.website/ttkinfo/
+
+state=%7B%22%22%3D%22undefined%22%7D
+
+
+https://diotmedia.framer.website/
+?auth_code=c4114c8633461f5a664091e27ed8dca2f826cbc5
+&code=c4114c8633461f5a664091e27ed8dca2f826cbc5
+&state=your_custom_params
